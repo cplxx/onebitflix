@@ -2,9 +2,9 @@ module.exports = {
   development: {
     dialect: "postgres",
     host: "localhost",
-    port: "5432",
+    port: "5433",
     database: "onebitflix_development",
-    username: "onebitflix",
+    username: "cplx",
     password: "onebitflix",
   },
 };

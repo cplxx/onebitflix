@@ -3,13 +3,11 @@ import { Sequelize } from "sequelize";
 export const sequelize = new Sequelize({
   dialect: "postgres",
   host: "localhost",
-  port: 5432,
+  port: 5433,
   database: "onebitflix_development",
-  username: "onebitflix",
+  username: "cplx",
   password: "onebitflix",
   define: {
     underscored: true,
   },
 });
-
-//snake_case
